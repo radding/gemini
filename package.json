@@ -1,6 +1,5 @@
 {
   "name": "gemini-graphql",
-  "version": "0.1.0",
   "description": "A mini Graphql client that is smaller and easier to use than apollo",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

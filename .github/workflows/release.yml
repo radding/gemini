@@ -19,6 +19,7 @@ jobs:
           npm run test
       - name: Build
         run: npm run build
+      - run: 'sed -i "s/\(.name.:.*,\)/\1\n  \"version\": \""${{ github.event.release.tag_name }}"\", /" package.json'
       - run: npm install
       - run: npm publish
         env:
