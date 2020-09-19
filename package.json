@@ -1,0 +1,22 @@
+{
+  "name": "gemini",
+  "version": "0.1.0",
+  "description": "A mini Graphql client that is smaller and easier to use than apollo",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "author": "Yoseph Radding",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/isomorphic-fetch": "0.0.35",
+    "@types/jest": "^26.0.14",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.3.0"
+  }
+}
